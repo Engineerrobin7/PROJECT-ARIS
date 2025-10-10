@@ -1,0 +1,3 @@
+@echo off
+echo Starting ARIS Launcher...
+python aris_launcher.py

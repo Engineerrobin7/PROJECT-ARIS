@@ -1,0 +1,6 @@
+[InternetShortcut]
+URL=file:///%~dp0start_aris.bat
+IconIndex=0
+HotKey=0
+IDList=
+IconFile=%SystemRoot%\System32\SHELL32.dll,173
