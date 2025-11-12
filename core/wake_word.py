@@ -5,6 +5,7 @@ Handles wake word detection.
 import speech_recognition as sr
 import os
 from dotenv import load_dotenv
+from fuzzywuzzy import fuzz
 
 class WakeWordDetector:
     """Listens for a specific wake word or phrase."""
@@ -42,3 +43,16 @@ class WakeWordDetector:
         except sr.RequestError as e:
             print(f"Could not request results; {e}")
         return False
+
+    def listen(self):
+        with self.microphone as source:
+            self.recognizer.adjust_for_ambient_noise(source)
+            print(f"Waiting for wake word: '{self.wake_word}'")
+            audio = self.recognizer.listen(source)
+        try:
+            phrase = self.recognizer.recognize_google(audio).lower()
+            print(f"Heard: {phrase}")
+            # Fuzzy match threshold (e.g., 80)
+            return fuzz.ratio(self.wake_word, phrase) > 80
+        except Exception:
+            return False
