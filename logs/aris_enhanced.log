@@ -1,0 +1,24 @@
+2025-11-14 23:17:13,161 - ARIS-Enhanced - INFO - Initializing Enhanced ARIS...
+2025-11-14 23:17:14,032 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\ROBIN\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-11-14 23:17:14,033 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\ROBIN\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-11-14 23:17:14,782 - CustomCommands - INFO - Loaded 3 custom commands
+2025-11-14 23:17:14,801 - Scheduler - INFO - Loaded 2 scheduled tasks
+2025-11-14 23:17:14,823 - ConversationContext - INFO - Loaded 2 conversation entries
+2025-11-14 23:17:14,825 - PluginManager - WARNING - No valid plugin class found in base_plugin
+2025-11-14 23:17:14,828 - PluginManager - INFO - Loaded plugin: example_plugin
+2025-11-14 23:17:14,829 - Scheduler - INFO - Scheduler started
+2025-11-14 23:17:14,829 - ARIS-Enhanced - INFO - Enhanced ARIS initialized successfully
+2025-11-14 23:19:30,881 - ARIS-Enhanced - INFO - Processing command: list files
+2025-11-14 23:19:41,397 - ARIS-Enhanced - INFO - Initializing Enhanced ARIS...
+2025-11-14 23:19:41,935 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\ROBIN\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-11-14 23:19:41,936 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\ROBIN\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-11-14 23:19:42,186 - CustomCommands - INFO - Loaded 3 custom commands
+2025-11-14 23:19:42,206 - Scheduler - INFO - Loaded 3 scheduled tasks
+2025-11-14 23:19:42,227 - ConversationContext - INFO - Loaded 5 conversation entries
+2025-11-14 23:19:42,229 - PluginManager - WARNING - No valid plugin class found in base_plugin
+2025-11-14 23:19:42,232 - PluginManager - INFO - Loaded plugin: example_plugin
+2025-11-14 23:19:42,233 - Scheduler - INFO - Scheduler started
+2025-11-14 23:19:42,233 - ARIS-Enhanced - INFO - Enhanced ARIS initialized successfully
+2025-11-14 23:19:57,264 - ARIS-Enhanced - INFO - Processing command: plugin test
+2025-11-14 23:19:58,268 - ARIS-Enhanced - INFO - Processing command: good morning aris
+2025-11-14 23:19:59,271 - ARIS-Enhanced - INFO - Processing command: list files

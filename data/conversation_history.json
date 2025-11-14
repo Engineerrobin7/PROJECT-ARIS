@@ -1,0 +1,71 @@
+{
+  "history": [
+    {
+      "timestamp": "2025-11-14T22:54:45.043705",
+      "user": "Test input",
+      "assistant": "Test response",
+      "topic": null,
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-11-14T23:10:26.685868",
+      "user": "Test question",
+      "assistant": "Test answer",
+      "topic": null,
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-11-14T23:17:48.909965",
+      "user": "What is the weather?",
+      "assistant": "The weather is sunny and 72\u00b0F",
+      "topic": null,
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-11-14T23:18:23.213228",
+      "user": "What is the weather?",
+      "assistant": "The weather is sunny and 72\u00b0F",
+      "topic": "weather",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-11-14T23:19:30.893054",
+      "user": "list files",
+      "assistant": "Found 24 folders and 58 files. Folders: .git, .vscode, __pycache__, api, assets and 19 more. Files: .env, .env.example, add_to_startup.ps1, ALL_COMMANDS.md, API_SETUP_GUIDE.md and 53 more",
+      "topic": "weather",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-11-14T23:19:49.241837",
+      "user": "Demo question",
+      "assistant": "Demo answer",
+      "topic": null,
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-11-14T23:19:57.264959",
+      "user": "plugin test",
+      "assistant": "Plugin test successful! The plugin system is working.",
+      "topic": null,
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-11-14T23:19:58.268794",
+      "user": "good morning aris",
+      "assistant": "Good morning! Ready to start the day?",
+      "topic": null,
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-11-14T23:19:59.283949",
+      "user": "list files",
+      "assistant": "Found 24 folders and 58 files. Folders: .git, .vscode, __pycache__, api, assets and 19 more. Files: .env, .env.example, add_to_startup.ps1, ALL_COMMANDS.md, API_SETUP_GUIDE.md and 53 more",
+      "topic": null,
+      "metadata": {}
+    }
+  ],
+  "preferences": {
+    "test_pref": "test_value"
+  },
+  "last_updated": "2025-11-14T23:19:59.284323"
+}

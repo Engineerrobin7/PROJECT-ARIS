@@ -1,0 +1,17 @@
+{
+  "good morning aris": {
+    "action_type": "speak",
+    "action_data": "Good morning! Ready to start the day?",
+    "response": "Good morning! Ready to start the day?"
+  },
+  "open my project": {
+    "action_type": "execute",
+    "action_data": "code .",
+    "response": "Opening your project in VS Code"
+  },
+  "test command": {
+    "action_type": "speak",
+    "action_data": "Test successful",
+    "response": "Test successful"
+  }
+}
