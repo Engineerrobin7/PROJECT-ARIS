@@ -196,14 +196,17 @@ class ARISEnhancedGUI:
             command = self.speech_input.listen()
             if command and self.is_listening:
                 self.root.after(0, self.add_message, "You", command)
-                self._process_command(command)
+                self.root.after(0, self.status_bar.config, {"text": "Processing..."})
+                # Process command in a separate thread
+                threading.Thread(target=self._process_command, args=(command,), daemon=True).start()
         except Exception as e:
             error_msg = f"Voice input error: {str(e)}"
             self.root.after(0, self.add_message, "ARIS", error_msg)
         finally:
             self.is_listening = False
             self.root.after(0, self.voice_button.config, {"text": "🎤 Voice", "bg": "#4CAF50"})
-            self.root.after(0, self.status_bar.config, {"text": "Ready"})
+            if not self.is_listening:
+                self.root.after(0, self.status_bar.config, {"text": "Ready"})
 
 def main():
     """Launch the enhanced GUI."""
