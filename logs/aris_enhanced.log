@@ -22,3 +22,5 @@
 2025-11-14 23:19:57,264 - ARIS-Enhanced - INFO - Processing command: plugin test
 2025-11-14 23:19:58,268 - ARIS-Enhanced - INFO - Processing command: good morning aris
 2025-11-14 23:19:59,271 - ARIS-Enhanced - INFO - Processing command: list files
+2025-11-14 23:22:44,835 - Scheduler - INFO - Executing task: Test reminder
+2025-11-14 23:22:44,835 - ARIS-Enhanced - INFO - Executing scheduled task: Test reminder
